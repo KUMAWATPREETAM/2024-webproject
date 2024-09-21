@@ -116,6 +116,7 @@ header {
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   transition: 0.5s;
+  background: transparent;
 }
 
 .hero-btn:hover {
