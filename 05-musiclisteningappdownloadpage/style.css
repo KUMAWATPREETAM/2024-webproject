@@ -1,0 +1,346 @@
+:root {
+  --black-color: #000;
+  --white-color: #d7ddf5;
+  --red-color: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: var(--white-color);
+  background: var(--black-color);
+}
+/* header  */
+
+header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  background: var(--black-color);
+  box-shadow: 0 0 25px var(--black-color);
+}
+
+/* logo  */
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 5rem;
+  cursor: pointer;
+}
+
+.logo img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* navbar */
+
+.links {
+  display: flex;
+}
+
+.links li {
+  list-style: none;
+  margin: 1rem;
+}
+
+.links li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white-color);
+}
+
+/* header-btn  */
+
+.btn {
+  position: absolute;
+  right: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--white-color);
+  outline: none;
+  background: transparent;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.btn i {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+/* hero section  */
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background: var(--black-color);
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* download_details */
+
+.download_details {
+  color: var(--white-color);
+  padding: 0 0.5rem;
+  background: var(--black-color);
+  width: 100%;
+}
+
+.download_details h1 {
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.download_details p {
+  line-height: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.download_details p button {
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background: var(--red-color);
+  color: var(--white-color);
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.download_details p button i {
+  color: var(--white-color);
+}
+
+.download_details p i {
+  color: var(--red-color);
+}
+
+/* about app features */
+
+.heading {
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.heading p {
+  line-height: 2rem;
+}
+
+.feature-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.feature {
+  text-align: center;
+  width: 25rem;
+  height: 10rem;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  box-shadow: 0 0 10px var(--white-color);
+  border-radius: 1rem;
+}
+
+.feature i {
+  margin: 1rem auto;
+  font-size: 2rem;
+}
+
+.feature h3 {
+  margin: 0.5rem auto;
+}
+
+.feature p {
+  text-align: center;
+}
+
+/* app mockup section  */
+
+.heading2 {
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.mockup_Gall {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.mockup_Box {
+  width: 20rem;
+  height: 35rem;
+  margin-top: 1rem;
+}
+
+.mockup_Img {
+  width: 20rem;
+  height: 25rem;
+}
+
+.mockup_Img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.mockup_Box .para {
+  width: 20rem;
+  height: 9rem;
+  margin-top: 1rem;
+}
+
+.mockup_Box .para p {
+  text-align: center;
+  padding: 0.3rem;
+}
+
+/* footer  */
+
+footer {
+  width: 100%;
+  border-top: 1px solid var(--white-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+footer h3 {
+  margin-bottom: 1rem;
+}
+
+footer .desc {
+  width: 27.5rem;
+  height: 18rem;
+}
+
+footer .desc_2 .follow i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 0.3rem;
+}
+
+footer .desc_2 .follow {
+  display: none;
+}
+
+footer .desc_3 {
+  height: 2.5rem;
+  margin-top: 12rem;
+}
+
+footer .desc_3 .icons {
+  padding-top: 0.5rem;
+  padding-left: 12rem;
+}
+
+footer .desc_3 .icons i {
+  margin: 0 0.5rem 0 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+footer .desc .about {
+  padding: 0.5rem 0;
+  /* border-bottom: 1px solid #000; */
+  border-bottom: 1px solid var(--white-color);
+  color: var(--white-color);
+}
+
+footer .desc .about a {
+  text-decoration: none;
+  color: var(--black-color);
+  color: var(--white-color);
+}
+
+/* copyright */
+hr {
+  width: 100%;
+  color: var(--black-color);
+  font-weight: 900;
+}
+.copy {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* media-queries for responsiveness */
+
+@media (max-width: 1100px) {
+  .logo {
+    left: 2rem;
+  }
+  .links {
+    display: none;
+  }
+
+  .btn {
+    right: 2.5rem;
+  }
+
+  .btn button {
+    display: none;
+  }
+
+  .btn i {
+    display: block;
+  }
+
+  .desc_1 {
+    display: none;
+  }
+
+  footer .desc_3 {
+    display: none;
+  }
+
+  footer .desc_2 .follow {
+    display: block;
+  }
+}
+
+@media (max-width: 1280px) {
+  .desc_1 {
+    display: none;
+  }
+}
